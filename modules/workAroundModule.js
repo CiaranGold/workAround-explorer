@@ -1,4 +1,4 @@
-// Add your imports here.
+// Add  imports 
 import {getDataByRole, getDataByCompany} from './salaryData.js';
 import salaryData from './salaryData.js';
 // Replace the empty array with the appropriate imported function/value
@@ -29,8 +29,7 @@ const getIndustryAverageSalary = () => {
 }
 
 
-// Helper Function. Do not edit.
-// Note: This function does not need to be exported since it is only used by the functions contained within this module.
+// Helper Function - only used by the functions contained within this module
 function calculateAverage(arrayOfNumbers) {
   let total = 0;
   arrayOfNumbers.forEach(number => total += number);
